@@ -42,7 +42,7 @@ app.get('/api/songs', async (req, res) => {
                 return {
                     id: index + 1,
                     title: path.parse(file).name,
-                    src: `http://localhost:${PORT}/songs/${file}`,
+                    src: `https://fog-wypr.onrender.com/songs/${file}`,
                     duration,
                     plays: '643,786,045',
                     album: 'Thriller 25 Sup...',
