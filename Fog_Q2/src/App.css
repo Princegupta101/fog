@@ -1,0 +1,39 @@
+/* App.css */
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #282c34;
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #61dafb;
+}
+
+.grid {
+  display: inline-block; /* Prevent the grid from stretching */
+  border: 2px solid #61dafb;
+  padding: 10px;
+  background-color: #1e1e1e;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  margin: 1px;
+  border-radius: 2px;
+}
